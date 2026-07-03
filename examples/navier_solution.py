@@ -5,7 +5,6 @@ import imageio
 from io import BytesIO
 from matplotlib.ticker import MaxNLocator
 from src.postprocessing.plot_config import configure_matplotlib
-
 configure_matplotlib()
 
 # Parameters
