@@ -22,7 +22,7 @@ for m in [1, 2]:
     ax.plot(alpha, k_n2, label=f'm={m}, n=2', linestyle='--', linewidth=1.5)
 
 # Configuration des axes et du style
-ax.set_xlabel(r"Rapport d'aspect$\alpha = a/b$")
+ax.set_xlabel(r"Rapport d'aspect $\alpha = a/b$")
 ax.set_ylabel(r"$\frac{N^{\mathrm{cr}} b^2}{\pi^2 D}$")
 ax.set_title("Évolution du facteur de flambement en fonction de l'élancement", fontweight='bold')
 ax.set_ylim(0, 45)
